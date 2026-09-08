@@ -28,7 +28,7 @@ Download a tagged snapshot from the Hugging Face Hub:
 moroop download --source huggingface --revision 1.0.0 --destination data/moroop
 ```
 
-To download the ZIP archive from the KTH Data Repository, obtain its direct ZIP download URL from the published record and run:
+The dataset is also available through the [KTH Data Repository](https://datarepository.kth.se/records/0qdea-h5385). To download its ZIP archive, obtain the direct ZIP download URL from that record and run:
 
 ```bash
 moroop download --source kth --url "https://..." --destination data/moroop
@@ -76,6 +76,10 @@ The figures use the representative shift and time interval specified in the acco
 ```bash
 pytest
 ```
+
+## Cite As
+
+Klein, J.-F. (2026). *MoRoOp: A Dataset of Autonomous Mobile Robot Operations in Production Logistics* (Version 1.0.0) \[Dataset]. datarepository.kth.se. [https://doi.org/10.71775/kth.0qdea-h5385](https://doi.org/10.71775/kth.0qdea-h5385)
 
 ## License
 
