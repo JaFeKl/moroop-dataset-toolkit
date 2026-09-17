@@ -73,7 +73,7 @@ pytest
 
 ## Cite As
 
-Klein, J.-F. (2026). *MoRoOp: A Dataset of Autonomous Mobile Robot Operations in Production Logistics* (Version 1.0.0) \[Dataset]. datarepository.kth.se. [https://doi.org/10.71775/kth.0qdea-h5385](https://doi.org/10.71775/kth.0qdea-h5385)
+Klein, J.-F. (2026). *MoRoOp: A Dataset of Autonomous Mobile Robot Operations in Production Logistics* (Version 1.0.1) \[Dataset]. datarepository.kth.se. [https://doi.org/10.71775/kth.hpj00-pjr15](https://doi.org/10.71775/kth.hpj00-pjr15)
 
 ## License
 
