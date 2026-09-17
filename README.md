@@ -10,12 +10,6 @@ cd moroop-dataset-toolkit
 python -m pip install .
 ```
 
-For development and test dependencies:
-
-```bash
-python -m pip install -e ".[test]"
-```
-
 ## Quick Start
 
 Follow the [MoRoOp dataset walkthrough](examples/moroop_dataset_walkthrough.ipynb) to download, inspect, and plot the dataset in Jupyter.
@@ -25,13 +19,13 @@ Follow the [MoRoOp dataset walkthrough](examples/moroop_dataset_walkthrough.ipyn
 Download a tagged snapshot from the Hugging Face Hub:
 
 ```bash
-moroop download --source huggingface --revision 1.0.0 --destination data/moroop
+moroop download --source huggingface --revision 1.0.1 --destination data/moroop
 ```
 
-The dataset is also available through the [KTH Data Repository](https://datarepository.kth.se/records/0qdea-h5385). To download its ZIP archive, obtain the direct ZIP download URL from that record and run:
+The dataset version 1.0.1 is also available through the [KTH Data Repository](https://datarepository.kth.se/records/hpj00-pjr15). To download its ZIP archive, obtain the direct ZIP download URL from that record and run:
 
 ```bash
-moroop download --source kth --url "https://..." --destination data/moroop
+moroop download --source kth --url "https://datarepository.kth.se/records/vx0cq-w7h93/files/MoRoOp_V_1_0_1.zip" --destination data/moroop
 ```
 
 The downloaded dataset's `data/` directory contains the Parquet files. Pass that directory to the examples below.

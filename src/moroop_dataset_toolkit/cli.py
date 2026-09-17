@@ -32,7 +32,7 @@ def main() -> None:
         else:
             if not args.url:
                 parser.error("--url is required when --source kth")
-            download_from_kth_repository(args.url, args.destination)
+            download_from_kth_repository(args.destination, args.url)
         return
     args.output_directory.mkdir(parents=True, exist_ok=True)
     representative_gantt(

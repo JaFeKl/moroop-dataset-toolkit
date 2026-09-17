@@ -46,7 +46,7 @@ def download_from_huggingface(
 
 def download_from_kth_repository(
     destination: str | Path,
-    archive_url: str = "https://datarepository.kth.se/records/0qdea-h5385/files/MoRoOp_V_1_0_0.zip",
+    archive_url: str = "https://datarepository.kth.se/records/vx0cq-w7h93/files/MoRoOp_V_1_0_1.zip",
 ) -> Path:
     """Download and extract a ZIP archive from the KTH Data Repository.
 
